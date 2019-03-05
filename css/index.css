@@ -350,3 +350,14 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.home .droptarget {
+  width: 80%;
+  height: 35px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+.home input {
+  width: 200px;
+}
