@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Fun Bus Travel Agency - Solution</title>
 
@@ -10,6 +11,7 @@
   <link href="css/index.css" rel="stylesheet">
 
   <script src="js/index.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -75,11 +77,16 @@
         <div class="btn">Sign Me Up!</div>
       </div>
       <div class="destination">
-        <h4>Island Getaway</h4>
+        <h4 id="draggable" draggable="true">Island Getaway</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
         <div class="btn">Sign Me Up!</div>
       </div>
     </section>
+    <h4>Drag here your destinations</h4>
+    <div class="droptarget"></div>
+
+    <input value="Our phone number 123.456.7898">
+    <p id="selectedText"></p>
   </div><!-- container -->
 
   <footer class="footer">
